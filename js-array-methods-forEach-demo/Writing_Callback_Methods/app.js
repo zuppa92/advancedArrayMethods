@@ -1,9 +1,9 @@
 function holler() {
-	console.log('HEY YOU!');
+	console.log('HELLO !');
 }
 
 const whisper = function() {
-	console.log('pssst I have a secret');
+	console.log('talking in a quiet voice');
 };
 
 function add(x, y) {
