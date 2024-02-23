@@ -1,9 +1,9 @@
 function holler() {
-	console.log('HELLO !');
+	console.log('HELLO Loud shout!');
 }
 
 const whisper = function() {
-	console.log('talking in a quiet voice');
+	console.log('talking in a quiet voice, whisper');
 };
 
 function add(x, y) {
@@ -32,8 +32,8 @@ function doMath(a, b, mathFunc) {
 	return mathFunc(a, b);
 }
 
-doMath(10, 20, add); //30
-doMath(10, 20, multiply); //200
+doMath(5, 20, add); //25
+doMath(10, 12, multiply); //120
 
 doMath(3, 4, function(a, b) {
 	console.log(a ** b);
